@@ -88,3 +88,14 @@ const helloEs6 = () => {
  }
  let coucou= number(10,5);
  console.log(coucou);
+
+
+//ex07
+
+const prenoms = ["Thomas", "Sarah", "Alexandre","Alexandre", "Mélodie", "Jonathan", "Laure"];
+
+const uniqueSet = new Set(prenoms);
+
+const newPrenoms = Array.from(uniqueSet);
+
+console.log(newPrenoms.join(", "));
