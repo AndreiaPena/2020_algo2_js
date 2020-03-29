@@ -41,3 +41,50 @@ console.log(helloWorld.trim());
 
 helloWorld = helloWorld.split(",");
 console.log(helloWorld);
+
+//ex06
+
+const helloEs6 = () => {
+    return true;
+ }
+ 
+ resultat = helloEs6();
+ console.log(resultat);
+ 
+ //ex06 
+ 
+ const stringReturn = (str) => {
+    return str;
+ }
+ stringReturn("hi");
+ 
+ //ex06 
+ 
+ const concatenation = (str, str2) => {
+    return str + str2;
+ }
+ 
+ let conca = concatenation("j'ai", "faim");
+ console.log(conca);
+ 
+ //ex06 
+ 
+ const number = (nb,nb2) => {
+  
+ 
+    if (nb>nb2){
+       return ("Le premier nombre est plus grand");
+       } 
+        else if (nb<nb2){
+          return ("Le premier nombre est plus petit");
+       } 
+        else if (nb==nb2){
+          return ("Les deux nombres sont identiques");
+       }
+       else{
+          return ("ERROR");
+       };
+    
+ }
+ let coucou= number(10,5);
+ console.log(coucou);
