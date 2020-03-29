@@ -25,3 +25,19 @@ if (a==1){
    console.log (a +=3)
 };
 console.log("result :", a);
+
+//ex05
+
+let variable = 0;
+
+while(variable <= 10) {
+    console.log(variable);
+    variable++
+};
+
+let helloWorld = "    Hello , world      ";
+console.log(helloWorld);
+console.log(helloWorld.trim());
+
+helloWorld = helloWorld.split(",");
+console.log(helloWorld);
